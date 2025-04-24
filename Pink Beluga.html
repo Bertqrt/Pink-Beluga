@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pink Beluga</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fdf6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1612969300260-69f3ee3de9d5?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    }
+
+    header h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    nav {
+      background-color: #f9d6dc;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #703847;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #a04c64;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    h2 {
+      color: #c6788e;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #e79ca9;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #c6788e;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      padding: 20px;
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .testimonials {
+      background-color: #fbeef2;
+      padding: 60px 20px;
+    }
+
+    .testimonial {
+      max-width: 700px;
+      margin: 0 auto 30px auto;
+      font-style: italic;
+      font-size: 1.1rem;
+    }
+
+    .testimonial strong {
+      display: block;
+      margin-top: 10px;
+      color: #c6788e;
+    }
+
+    .newsletter {
+      background-color: #fdf6f9;
+      padding: 60px 20px;
+    }
+
+    .newsletter input[type="email"] {
+      padding: 12px;
+      width: 300px;
+      max-width: 100%;
+      border: 2px solid #e79ca9;
+      border-radius: 20px;
+      margin-right: 10px;
+      outline: none;
+    }
+
+    .newsletter button {
+      padding: 12px 25px;
+      background-color: #e79ca9;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .newsletter button:hover {
+      background-color: #c6788e;
+    }
+
+    footer {
+      background-color: #e79ca9;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    @media (max-width: 600px) {
+      .newsletter input[type="email"] {
+        margin-bottom: 10px;
+        width: 100%;
+      }
+
+      .newsletter button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pink Beluga</h1>
+    <p>Splashing style since forever ✨</p>
+  </header>
+
+  <nav>
+    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+    <a href="https://www.pinterest.com" target="_blank">Pinterest</a>
+    <a href="https://www.etsy.com" target="_blank">Etsy</a>
+  </nav>
+
+  <section>
+    <h2>Our Mission</h2>
+    <p>
+      At Pink Beluga, we craft dreams into reality with a touch of elegance, boldness, and a lot of pink.
+      From hand-made art to curated aesthetics, we exist to make your vibe stand out.
+    </p>
+    <a href="https://www.etsy.com" target="_blank" class="button">Shop Now</a>
+  </section>
+
+  <section>
+    <h2>Featured Products</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://source.unsplash.com/300x200/?pink,art" alt="Product 1" />
+        <p>Hand-painted Canvas Art</p>
+      </div>
+      <div class="product-card">
+        <img src="https://source.unsplash.com/300x200/?pink,jewelry" alt="Product 2" />
+        <p>Custom Pink Jewelry Set</p>
+      </div>
+      <div class="product-card">
+        <img src="https://source.unsplash.com/300x200/?pink,accessories" alt="Product 3" />
+        <p>Blush Accessory Pack</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial">“Absolutely obsessed with my order. Everything was wrapped with love and smells amazing!” <strong>— Jamie L.</strong></div>
+    <div class="testimonial">“Pink Beluga is my go-to for gifts. Always unique and pretty. I’ve never been disappointed!” <strong>— Mia R.</strong></div>
+  </section>
+
+  <section class="newsletter">
+    <h2>Join Our Newsletter</h2>
+    <p>Be the first to know about our new arrivals and exclusive offers!</p>
+    <form>
+      <input type="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Bert's. All rights reserved.
+  </footer>
+
+</body>
+</html>
