@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shop | Pink Beluga</title>
+  <meta name="description" content="Shop hand-painted canvas art, custom pink jewellery, candles, accessories and gift boxes from Pink Beluga." />
+  <meta name="theme-color" content="#e79ca9" />
+  <link rel="canonical" href="https://bertqrt.github.io/Pink-Beluga/shop.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Pink Beluga" />
+  <meta property="og:title" content="Shop | Pink Beluga" />
+  <meta property="og:description" content="Shop hand-painted canvas art, custom pink jewellery, candles, accessories and gift boxes from Pink Beluga." />
+  <meta property="og:url" content="https://bertqrt.github.io/Pink-Beluga/shop.html" />
+  <meta property="og:image" content="https://bertqrt.github.io/Pink-Beluga/assets/img/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="" width="40" height="40" />
+        <span>Pink Beluga</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="nav-links" aria-expanded="false">Menu</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html" aria-current="page">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="shop.html" class="bag-link" data-open-bag>Bag <span class="bag-count">0</span></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <h1>The Shop</h1>
+      <p>Add your favourites to the bag, then send us your order. We confirm delivery and payment with you personally.</p>
+    </section>
+
+    <section class="section" aria-labelledby="shop-title">
+      <div class="container">
+        <h2 id="shop-title" class="visually-hidden">All products</h2>
+        <div class="filters" data-filters role="group" aria-label="Filter by category"></div>
+        <p class="visually-hidden" data-filter-status role="status" aria-live="polite"></p>
+        <div class="products" data-products="all"></div>
+        <noscript><p class="center">Turn on JavaScript to browse products, or <a href="contact.html">contact us</a> to order.</p></noscript>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container center">
+        <h2>Looking for something custom?</h2>
+        <p>Different colour, a name engraved, a bigger canvas? Tell us what you have in mind.</p>
+        <a href="contact.html" class="button">Request a custom piece</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2 class="footer-brand">Pink Beluga</h2>
+          <p>Hand-made art, jewellery and little luxuries, wrapped with love.</p>
+        </div>
+        <nav aria-label="Footer">
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact &amp; FAQ</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h2>Follow</h2>
+          <ul>
+            <li><a data-social="instagram" href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a data-social="pinterest" href="https://www.pinterest.com" target="_blank" rel="noopener">Pinterest</a></li>
+            <li><a data-social="etsy" href="https://www.etsy.com" target="_blank" rel="noopener">Etsy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span data-year>2026</span> Bert's. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

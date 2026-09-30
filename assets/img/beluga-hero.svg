@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="A smiling pink beluga whale">
+  <g fill="#fff" opacity="0.7">
+    <circle cx="62" cy="40" r="7"/><circle cx="48" cy="18" r="4"/><circle cx="72" cy="12" r="3"/>
+  </g>
+  <path d="M30 120c0-45 38-80 95-80 42 0 70 18 85 42 10-18 28-30 50-30-6 18-14 32-26 42 4 5 6 11 6 17 0 40-48 60-115 60C68 171 30 155 30 120z" fill="#fbe3ea"/>
+  <path d="M30 120c0-45 38-80 95-80 22 0 40 5 55 13-40-6-100 16-118 64-4 11-2 22 6 32-24-5-38-14-38-29z" fill="#fff5f8"/>
+  <circle cx="82" cy="104" r="9" fill="#4a2330"/>
+  <circle cx="85" cy="100" r="3" fill="#fff"/>
+  <path d="M56 138c14 10 32 10 44 0" stroke="#4a2330" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <ellipse cx="62" cy="122" rx="11" ry="6" fill="#f1a9bc"/>
+  <path d="M120 160c10 16 32 22 48 16-12-8-16-16-16-26z" fill="#f4c3d0"/>
+</svg>

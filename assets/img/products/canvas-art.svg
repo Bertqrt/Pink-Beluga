@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-label="Hand-painted canvas with pink abstract shapes on an easel">
+  <rect width="300" height="200" fill="#fbeef2"/>
+  <path d="M110 170l40-150 40 150" stroke="#8a5a44" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <rect x="85" y="35" width="130" height="100" rx="4" fill="#fff" stroke="#e8d3d9" stroke-width="3"/>
+  <circle cx="125" cy="75" r="26" fill="#e79ca9"/>
+  <path d="M90 130c30-40 60-10 120-40v40H90z" fill="#c6788e"/>
+  <circle cx="178" cy="62" r="12" fill="#f9d6dc"/>
+  <rect x="80" y="132" width="140" height="8" rx="3" fill="#8a5a44"/>
+</svg>

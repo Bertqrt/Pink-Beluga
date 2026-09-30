@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-label="Blush hair clips, scrunchie and bow">
+  <rect width="300" height="200" fill="#fbeef2"/>
+  <circle cx="90" cy="105" r="42" fill="#f1a9bc"/>
+  <circle cx="90" cy="105" r="18" fill="#fbeef2"/>
+  <path d="M60 80q30 12 60 0M55 105q35 10 70 0M60 130q30-10 60 0" stroke="#e08aa2" stroke-width="3" fill="none"/>
+  <path d="M170 90l40 20-40 20zM250 90l-40 20 40 20z" fill="#c6788e"/>
+  <circle cx="210" cy="110" r="9" fill="#a8506a"/>
+  <rect x="160" y="150" width="90" height="12" rx="6" fill="#e79ca9"/>
+  <rect x="160" y="40" width="90" height="12" rx="6" fill="#f9d6dc" stroke="#e79ca9" stroke-width="2"/>
+</svg>

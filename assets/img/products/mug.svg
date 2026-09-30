@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-label="Pink ceramic mug with steam">
+  <rect width="300" height="200" fill="#fbeef2"/>
+  <path d="M130 30c-8 10 8 16 0 26M150 26c-8 10 8 16 0 26M170 30c-8 10 8 16 0 26" stroke="#e8c3cd" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M195 95c28 0 28 44 0 44" stroke="#c6788e" stroke-width="10" fill="none"/>
+  <rect x="100" y="70" width="100" height="100" rx="14" fill="#f1a9bc"/>
+  <rect x="100" y="70" width="100" height="14" rx="7" fill="#e08aa2"/>
+  <circle cx="130" cy="120" r="5" fill="#fff"/><circle cx="160" cy="138" r="4" fill="#fff"/><circle cx="172" cy="108" r="3" fill="#fff"/>
+</svg>

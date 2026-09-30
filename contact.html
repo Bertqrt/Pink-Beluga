@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Pink Beluga</title>
+  <meta name="description" content="Contact Pink Beluga for orders, custom requests, delivery questions or just to say hello." />
+  <meta name="theme-color" content="#e79ca9" />
+  <link rel="canonical" href="https://bertqrt.github.io/Pink-Beluga/contact.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Pink Beluga" />
+  <meta property="og:title" content="Contact | Pink Beluga" />
+  <meta property="og:description" content="Contact Pink Beluga for orders, custom requests, delivery questions or just to say hello." />
+  <meta property="og:url" content="https://bertqrt.github.io/Pink-Beluga/contact.html" />
+  <meta property="og:image" content="https://bertqrt.github.io/Pink-Beluga/assets/img/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="" width="40" height="40" />
+        <span>Pink Beluga</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="nav-links" aria-expanded="false">Menu</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+        <li><a href="shop.html" class="bag-link" data-open-bag>Bag <span class="bag-count">0</span></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <h1>Say Hello</h1>
+      <p>Orders, custom requests, or just a question. We would love to hear from you.</p>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <form class="card form-grid" data-form="contact" novalidate aria-labelledby="form-title">
+          <h2 id="form-title">Send a message</h2>
+          <div class="form-row">
+            <div>
+              <label for="name">Your name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+          </div>
+          <div>
+            <label for="subject">What is it about?</label>
+            <select id="subject" name="subject">
+              <option>Placing an order</option>
+              <option>Custom request</option>
+              <option>Delivery question</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="visually-hidden" aria-hidden="true" />
+          <button type="submit" class="button">Send message</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <div>
+          <div class="card">
+            <h2>Other ways to reach us</h2>
+            <ul class="info-list">
+              <li data-optional><span aria-hidden="true">✉️</span><div><strong>Email</strong><a data-email href="#"></a></div></li>
+              <li data-optional><span aria-hidden="true">💬</span><div><strong>WhatsApp</strong><a data-whatsapp href="#" target="_blank" rel="noopener"></a></div></li>
+              <li><span aria-hidden="true">📸</span><div><strong>Instagram</strong><a data-social="instagram" href="https://www.instagram.com" target="_blank" rel="noopener">Send us a DM</a></div></li>
+              <li><span aria-hidden="true">🕒</span><div><strong>Replies</strong>Usually within one working day</div></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" aria-labelledby="faq-title">
+      <div class="container" style="max-width: 800px">
+        <div class="section-head">
+          <h2 id="faq-title">Frequently asked questions</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>How do I place an order?</summary>
+            <p>Add items to your bag on the Shop page, then press the order button in the bag. Your order is sent to us and we reply to confirm the total, delivery and payment.</p>
+          </details>
+          <details>
+            <summary>How do I pay?</summary>
+            <p>Once we confirm your order we share payment options with you, such as mobile money or bank transfer. We never ask for card details on this website.</p>
+          </details>
+          <details>
+            <summary>How long does delivery take?</summary>
+            <p>Ready-made items usually ship within 2–4 days. Custom pieces take 1–2 weeks depending on the design. We will give you a date when we confirm.</p>
+          </details>
+          <details>
+            <summary>Can I request a custom design?</summary>
+            <p>Yes, please! Pick “Custom request” in the form above and describe your idea, colours and budget.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2 class="footer-brand">Pink Beluga</h2>
+          <p>Hand-made art, jewellery and little luxuries, wrapped with love.</p>
+        </div>
+        <nav aria-label="Footer">
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact &amp; FAQ</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h2>Follow</h2>
+          <ul>
+            <li><a data-social="instagram" href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a data-social="pinterest" href="https://www.pinterest.com" target="_blank" rel="noopener">Pinterest</a></li>
+            <li><a data-social="etsy" href="https://www.etsy.com" target="_blank" rel="noopener">Etsy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span data-year>2026</span> Bert's. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
