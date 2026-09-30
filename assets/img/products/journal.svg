@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-label="Pink hardcover journal with gold heart">
+  <rect width="300" height="200" fill="#fdf1f5"/>
+  <rect x="98" y="28" width="112" height="148" rx="8" fill="#fff" stroke="#e8d3d9" stroke-width="2"/>
+  <rect x="90" y="24" width="112" height="150" rx="8" fill="#e79ca9"/>
+  <rect x="90" y="24" width="16" height="150" rx="6" fill="#c6788e"/>
+  <path d="M154 86c-8-12-26-6-22 8 3 10 22 22 22 22s19-12 22-22c4-14-14-20-22-8z" fill="#d8b26e"/>
+  <rect x="120" y="134" width="64" height="6" rx="3" fill="#f9d6dc"/>
+  <path d="M186 24v40l8-6 8 6V24" fill="#a8506a"/>
+</svg>

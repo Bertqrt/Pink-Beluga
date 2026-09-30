@@ -1,0 +1,15 @@
+{
+  "name": "Pink Beluga",
+  "short_name": "Pink Beluga",
+  "description": "Hand-made art, jewellery and little luxuries in every shade of pink.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fdf6f9",
+  "theme_color": "#e79ca9",
+  "icons": [
+    { "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "assets/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

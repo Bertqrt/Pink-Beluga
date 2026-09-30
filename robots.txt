@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bertqrt.github.io/Pink-Beluga/sitemap.xml

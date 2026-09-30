@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-label="Canvas tote bag with a small beluga print">
+  <rect width="300" height="200" fill="#fbeef2"/>
+  <path d="M120 70c0-40 60-40 60 0" stroke="#c6788e" stroke-width="8" fill="none"/>
+  <path d="M95 70h110l10 110H85z" fill="#fff7f0" stroke="#e8d3d9" stroke-width="3"/>
+  <path d="M120 135c0-14 12-24 28-24 12 0 20 5 24 12 3-5 8-8 14-8-2 5-4 9-7 12 1 1 2 3 2 5 0 11-14 17-33 17-16 0-28-4-28-14z" fill="#e79ca9"/>
+  <circle cx="134" cy="130" r="2.5" fill="#4a2330"/>
+</svg>

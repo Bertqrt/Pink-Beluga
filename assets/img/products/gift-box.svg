@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-label="Gift box wrapped in pink with a ribbon bow">
+  <rect width="300" height="200" fill="#fdf1f5"/>
+  <rect x="90" y="84" width="120" height="90" rx="6" fill="#e79ca9"/>
+  <rect x="82" y="66" width="136" height="26" rx="6" fill="#f1a9bc"/>
+  <rect x="142" y="66" width="16" height="108" fill="#fff"/>
+  <path d="M150 66c-30-30-50-6-30 0zM150 66c30-30 50-6 30 0z" fill="#fff" stroke="#e8d3d9" stroke-width="2"/>
+  <circle cx="150" cy="64" r="7" fill="#a8506a"/>
+</svg>
